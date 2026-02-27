@@ -1,9 +1,19 @@
 main:
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Assignments"
+    url: /assignments/
+  - title: "Responses"
+    url: /responses/
+
+
+  - title: "About"
+    url: /about/
   - title: "Posts"
     url: /posts/
   - title: "Assignments"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
