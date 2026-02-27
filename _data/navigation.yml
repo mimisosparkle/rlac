@@ -7,13 +7,3 @@ main:
     url: /assignments/
   - title: "Responses"
     url: /responses/
-
-
-  - title: "About"
-    url: /about/
-  - title: "Posts"
-    url: /posts/
-  - title: "Assignments"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
