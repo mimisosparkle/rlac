@@ -39,7 +39,7 @@ In And I Will Find You, the change becomes even more noticeable as the names of 
 
 ## Institutional Vs Relational Vocabulary
 
-My second visualization was created on Voyant Tools where I chose to compare two broad vocabulary categories: institutional terms (from canon texts) and relational language. I selected words associated with Hogwarts, professors, magical objects, and wizarding infrastructure, alongside words that relate to personal connections between individuals. |
+My second visualization was created on Voyant Tools where I chose to compare two broad vocabulary categories: institutional terms (from canon texts) and relational language. I selected words associated with Hogwarts, professors, magical objects, and wizarding infrastructure, alongside words that relate to personal connections between individuals.
 
 ![Institutional and relational vocabulary](/assets/images/Fig2-Institutional&Relational-Vocab.png)
 
