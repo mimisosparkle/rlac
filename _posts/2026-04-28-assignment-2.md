@@ -30,9 +30,8 @@ The computational analysis method of Stylometry uses statistical techniques to d
 
 
 <div style="text-align: center;">
- <img src="{{ '/assets/images/CA_500MFW.png' | relative_url }}" style="width: 70%;">
+ <img src="{{ '/images/CA_500MFW.png' | relative_url }}" style="width: 70%;">
 </div>
-
 
 *Figure 1: 500 MFW Stylometry Cluster Analysis of Science Fiction Corpus.*
 
@@ -43,8 +42,7 @@ In this cluster analysis, we can very clearly see the consistent authorship in s
 Several outliers also appear in the cluster. Wells’s *The Salvaging of Civilization* is an outlier because it is a nonfiction book, and Kuttner’s *The Ego Machine* was a book he co-authored with his wife, C.L. Moore, where the computer likely identified the differences in writing style compared to his other books. The most interesting is Zimmer Bradley’s *Jackie Sees A Star*, because despite being science fiction, it clusters away from her other novels. After doing some research, we found that the story revolves around a child (Jackie), meaning it likely has simpler vocabulary which separates it from her other works. This proves that a major change in tone or protagonist in a story can trick the computer’s reading of an author’s style in writing.
 
 
-<img src="{{ '/assets/images/BCT_100-2000MFW.png' | relative_url }}">
-
+<img src="{{ '/images/BCT_100-2000MFW.png' | relative_url }}">
 
 *Figure 2: 100-2000 MFW Stylometry Bootstrap Consensus Tree Analysis of Science Fiction Corpus.*
 
@@ -60,8 +58,7 @@ However, looking at this wider range also confirmed the odd groupings of some te
 Unlike Stylo, which highlights the most frequent words, TF-IDF shifts to the more distinguishable terminology, which gives an opportunity to gather information about the specific content-driven signals that differentiate one text from another. We will be examining the corpus pool across three different MFW thresholds (100, 500, and 3000). This allows the visualizations to be explored at different levels of granularity within the same corpus, depending on how much vocabulary is included in the model. The choice of three thresholds, rather than more, is to allow for an in-depth comparative analysis, rather than brief observations.
 
 
-<img src="{{ '/assets/images/A2100.png' | relative_url }}">
-
+<img src="{{ '/images/A2100.png' | relative_url }}">
 
 *Figure 3: 100 MFW TF-IDF Analysis of Science Fiction Corpus.*
 
@@ -69,8 +66,7 @@ Unlike Stylo, which highlights the most frequent words, TF-IDF shifts to the mor
 *Figure 3* presents the results for an analysis at 100 MFW. A striking difference is between Norton and Wells. Norton’s plots are clustered in the lower-right quadrant, suggesting a highly consistent lexical and thematic fingerprint. Conversely, Wells exhibits significant internal variance; while his fiction occupies the right-center, *The Salvaging of Civilization* pulls toward the upper-right extreme, likely reflecting the thematic shift from narrative to sociopolitical discourse. The central convergence of Dick, Kuttner, and Brackett suggests a shared "pulp" vocabulary, whereas Zimmer Bradley’s *Jackie Sees A Star* acts as a distinct outlier, indicating a linguistic profile that diverges sharply from the rest of the corpus.
 
 
-<img src="{{ '/assets/images/A2500.png' | relative_url }}">
-
+<img src="{{ '/images/A2500.png' | relative_url }}">
 
 *Figure 4: 500 MFW TF-IDF Analysis of Science Fiction Corpus.*
 
@@ -78,8 +74,7 @@ Unlike Stylo, which highlights the most frequent words, TF-IDF shifts to the mor
 *Figure 4* presents the results for an analysis at 500 MFW. This demonstrated that increasing the threshold to 500 MFW provides a more granular interrogation of authorial style. While the 100 MFW showed a “pulp” convergence, the 500 MFW plot begins to decompress the central cluster, as the specific thematic vocabularies of Dick and Brackett pull their works into more distinct spatial territories. Notably, the relative positions of Norton, Wells, and the Zimmer Bradley outlier, *Jackie Sees A Star*, remain remarkably stable. Whether the computer looks at 100 or 500 words, their distinctiveness remains unchanged, differentiating them from the rest of the corpus.
 
 
-<img src="{{ '/assets/images/A23000.png' | relative_url }}">
-
+<img src="{{ '/images/A23000.png' | relative_url }}">
 
 *Figure 5: 3000 MFW TF-IDF Analysis of Science Fiction Corpus.*
 
