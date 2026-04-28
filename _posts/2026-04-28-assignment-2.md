@@ -1,16 +1,14 @@
 ---
-title: "Assignment 2"
-date: 2026-02-26
-categories: assignments
+title: "Assignment 2: Computational Analysis of Science FIction Authors Using Stylo and TF-IDF"
+excerpt_separator: "<!--more-->"
+categories:
+  - Assignment
+tags:
+  - /assignments/
 ---
 
 
-<h1 style="text-align: center; font-weight: bold;"> Computational Analysis of Science FIction Authors: Stylo and TF-IDF </h1>
-
-
 ## By: Amna Al Mheiri and Mariam Al Junaibi
-
-
 
 
 ## Introduction

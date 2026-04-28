@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Assignment
 tags:
-  - Assignment1  #
+  - /assignments/
 ---
 
 ## Introduction
